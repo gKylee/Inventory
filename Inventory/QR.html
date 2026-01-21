@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="QR.css">
+    <script src="https://unpkg.com/qr-code-styling@1.6.1/lib/qr-code-styling.js"></script>
+    <script src="QR.js" defer></script>
+    <title>QR</title>
+</head>
+<body>
+       <div class="container">
+  <h1>C5/C6 QR CODE</h1>
+        
+  <div class="form-group">
+    <label for="serial">Enter the Serial Number</label>
+    <input type="text" id="serial" placeholder="Serial Number" autocomplete="off">
+    <label for="itemType">Enter the Item Type</label>
+    <input type="text" id="itemType" placeholder="ex: PC, Keyboard, Mouse, etc." autocomplete="off">
+     <label for="loc">Enter the Item Location</label>
+    <input type="text" id="loc" placeholder="ex: PC1, PC2, PC3" autocomplete="off">
+    <label for="itemImg">Enter the Item Location</label>
+    <input type="file" id="itemImg" placeholder="Make sure it's clean" autocomplete="off">
+  </div>
+
+  <div class="qr-container">
+    <div id="QR">
+    </div>
+  </div>
+
+  <button id="btnClear">Clear</button>
+
+  <div class="info-text">
+    Type something and the QR code will appear automatically
+  </div>
+</div>
+
+</body>
+</html>

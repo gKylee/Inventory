@@ -1,0 +1,109 @@
+body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #949090;
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .container {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      padding: 2.5rem;
+      width: 100%;
+      max-width: 50vh;
+    }
+
+    h1 {
+      margin: 0 0 1.8rem;
+      font-size: 1.7rem;
+      color: #1a1a1a;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    .form-group {
+      margin-bottom: 1.6rem;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.6rem;
+      font-weight: 500;
+      color: #444;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 14px 16px;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      font-size: 1.05rem;
+      transition: all 0.2s;
+      box-sizing: border-box;
+    }
+
+    input[type="text"]:focus {
+      outline: none;
+      border-color: #0066ff;
+      box-shadow: 0 0 0 3px rgba(0, 102, 255, 0.15);
+    }
+
+    .qr-container {
+      background: #f8f9fa;
+      border-radius: 12px;
+      padding: 1.5rem;
+      min-height: 220px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 2rem 0 1.5rem;
+      border: 1px solid #e9ecef;
+    }
+
+    #QR {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      background: white;
+      padding: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }
+
+    #QR img {
+      display: block;
+      max-width: 100%;
+    }
+
+    button#btnClear {
+      width: 100%;
+      padding: 14px;
+      background: #6c757d;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    button#btnClear:hover {
+      background: #5a6268;
+    }
+
+    button#btnClear:active {
+      transform: translateY(1px);
+    }
+
+    .info-text {
+      text-align: center;
+      color: #6c757d;
+      font-size: 0.95rem;
+      margin-top: 1.5rem;
+    }
